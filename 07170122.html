@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>07170122</title>
+    <!-- Google Analytics -->
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-160187405-1', 'auto');
+ga('send', 'pageview');
+</script><!-- End Google Analytics -->
+  </head>
+  <body>
+    <script async="" src="https://cse.google.com/cse.js?cx=017932673867984746636:jxz58z6lq4w"></script>
+    <div class="gcse-searchbox-only"></div>
+    <p>&nbsp;楊佳雨07170122</p>
+    <p> <a href="http://line.naver.jp/R/msg/text/?%E4%BF%83%E9%8A%B7%E5%84%AA%E6%83%A0+%E4%BD%90%E8%97%A4%E5%81%A5%E7%9A%84%E6%9C%8B%E5%8F%8B+%E4%BF%83%E9%8A%B7%E5%84%AA%E6%83%A0+http://myweb.scu.edu.tw/%7E07170122/07170122.html"
+        onclick="ga('send','event','來自促銷頁面的line','轉傳','春季限定','6677');"><img
+          src="http://media.line.me/img/button/ja/82x20.png"><br>
+      </a></p>
+    <p><a href="http://myweb.scu.edu.tw/%7E07170122/07170122-2.html?utm_source=%E8%87%AA%E5%AE%B6%E5%AE%98%E7%B6%B2&amp;utm_medium=banner&amp;utm_campaign=%E4%BF%83%E9%8A%B7%E5%84%AA%E6%83%A0&amp;utm_content=for%E6%98%A5%E5%AD%A3%E5%B0%88%E5%B1%AC"><img
+          src="demo.jpg"
+          alt=""
+          style="width: 414px; height: 149px;"
+          id="001"></a></p>
+    <script>
+var delay = function (elem, callback) {
+var timeout = null;
+elem.onmouseover = function() {
+// Set timeout to be a timer which will invoke callback after 1s
+timeout = setTimeout(callback, 2000);
+};
+elem.onmouseout = function() {
+// Clear any timers set to timeout
+clearTimeout(timeout);
+}
+};
+
+delay(document.getElementById('001'), function() {ga('send','event','年終促銷','滑鼠游標指向','for 夏季專屬','473')});
+
+</script> <br>
+    <div id="fb-root"></div>
+    <script async="" defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+    <script>
+　	window.fbAsyncInit = function() {
+　	FB.Event.subscribe('edge.create', function(targetUrl) {
+　	ga('send', 'social', 'facebook臉書', 'like按讚', '促銷優惠');
+　	});
+　	};
+　	</script>
+    <div class="fb-like" data-href="http://myweb.scu.edu.tw/~07170122/07170122.html"
+      data-width=""
+      data-layout="standard"
+      data-action="like"
+      data-size="small"
+      data-share="false"></div>
+
+    
+
+<div id="player"></div>
+
+<script>
+
+window.onbeforeunload = sendVideoWatchedTime;
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+function onYouTubeIframeAPIReady() {
+player = new YT.Player('player', {
+height: '150',   //此處可修改影片高度
+width: '200',   //此處可修改影片寬度
+videoId: '3eVkofpivRQ',  //記得將此處修改為自己的影片ID
+events: {
+'onStateChange': onPlayerStateChange }});}
+
+　
+
+//此處為影片播放行為捕捉的程式碼
+
+function onPlayerStateChange(event) {   
+if (event.data == YT.PlayerState.PLAYING) {
+console.log('play');
+ga('send', 'event', '【母親節特別企劃】讓我老母當一天老公主 feat.Pinkoi', '撥放Play');
+}
+
+
+//此處為影片暫停行為捕捉的程式碼
+
+if (event.data == YT.PlayerState.PAUSED) { 
+console.log('paused, total: ' + player.getCurrentTime());
+ga('send', 'event', '【母親節特別企劃】讓我老母當一天老公主 feat.Pinkoi', '暫停Pause', '於幾秒處按下暫停鍵: ' + Math.round(player.getCurrentTime()));
+}
+
+//此處為影片收視完畢行為捕捉的程式碼
+
+if (event.data == YT.PlayerState.ENDED) {
+console.log('video ended');
+ga('send', 'event', '【母親節特別企劃】讓我老母當一天老公主 feat.Pinkoi', '收視完畢Complete')
+}}
+
+　
+
+//此處為影片沒看完跳離頁面行為捕捉的程式碼
+
+function sendVideoWatchedTime() {   
+console.log('leaving... watched: ' + player.getCurrentTime() + 'seconds');
+ga('send', 'event', '【母親節特別企劃】讓我老母當一天老公主 feat.Pinkoi', '沒看完跳離頁面', '於幾秒處關閉瀏覽器: ' + Math.round(player.getCurrentTime()));
+}
+</script>
+　
+  </body>
+</html>
